@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Prestige Heritage Lifestyle Concierge</title>
+<meta name="description" content="Book a private consultation with Prestige Heritage Lifestyle Concierge.">
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="Prestige Heritage Lifestyle Concierge monogram logo">
+        <span class="brand-word">Prestige Heritage<small>Lifestyle Concierge</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="home-safety-audits.html">Home Safety Audits</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a href="resources.html">Resources</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="nav-cta">Book a Consultation</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <section class="page-hero">
+    <div class="eyebrow"><span>Contact Us</span></div>
+    <h1>Begin with a private consultation.</h1>
+    <p>Share a few details below and a member of our concierge team will be in touch within one business day, in complete confidence.</p>
+  </section>
+
+  <section class="bg-white">
+    <div class="container grid grid-2" style="align-items:flex-start;">
+      <div class="reveal">
+        <div class="eyebrow"><span>Request a Consultation</span></div>
+        <h2 class="h-lg">Tell us a little about your household.</h2>
+        <form id="consult-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact">
+          <p style="position:absolute;left:-9999px;top:auto;overflow:hidden;width:1px;height:1px;">
+            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+          </p>
+          <div class="grid grid-2" style="gap:1.4rem;">
+            <div class="form-field"><label for="fname">Full Name</label><input id="fname" name="fname" type="text" required></div>
+            <div class="form-field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required></div>
+          </div>
+          <div class="form-field"><label for="email">Email Address</label><input id="email" name="email" type="email" required></div>
+          <div class="form-field"><label for="service">Service of Interest</label>
+            <select id="service" name="service">
+              <option>Home Safety Audit</option>
+              <option>Trusted Vendor Coordination</option>
+              <option>Grocery Concierge</option>
+              <option>Pharmacy &amp; Essential Errands</option>
+              <option>Companion &amp; Appointment Support</option>
+              <option>Healthcare Coordination</option>
+              <option>Not sure — I'd like to discuss</option>
+            </select>
+          </div>
+          <div class="form-field"><label for="message">How can we help?</label><textarea id="message" name="message" placeholder="Share any details that would help us prepare for your consultation."></textarea></div>
+          <button type="submit" class="btn btn-gold">Request Consultation</button>
+          <p id="form-note" style="display:none;margin-top:1.2rem;color:var(--emerald-deep);font-size:0.95rem;"></p>
+        </form>
+      </div>
+      <div class="reveal" style="background:var(--cream-2);border-radius:var(--radius);padding:3rem 2.4rem;">
+        <h3 style="margin-bottom:1.4rem;">Direct Contact</h3>
+        <p style="color:#55504a;margin-bottom:0.3rem;font-size:0.78rem;letter-spacing:0.14em;text-transform:uppercase;">Phone</p>
+        <p style="margin-bottom:1.4rem;"><a href="tel:+18683740305" style="color:var(--emerald-deep);font-family:var(--serif);font-size:1.3rem;">(868) 374-0305</a></p>
+        <p style="color:#55504a;margin-bottom:0.3rem;font-size:0.78rem;letter-spacing:0.14em;text-transform:uppercase;">Email</p>
+        <p style="margin-bottom:1.4rem;"><a href="mailto:PHCONCIERGE1@outlook.com" style="color:var(--emerald-deep);font-family:var(--serif);font-size:1.3rem;">PHCONCIERGE1@outlook.com</a></p>
+        <p style="color:#55504a;margin-bottom:0.3rem;font-size:0.78rem;letter-spacing:0.14em;text-transform:uppercase;">Hours</p>
+        <p style="margin-bottom:1.4rem;">By appointment, Monday through Saturday.</p>
+        <svg class="flourish-divider" viewBox="0 0 120 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M0 11H50" stroke-linecap="round"/>
+<path d="M50 11C58 1 62 21 70 11C78 1 82 21 90 11C96 4 100 11 120 11" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <p style="margin-top:1.2rem;font-family:var(--serif);font-style:italic;color:var(--emerald-deep);text-align:center;">Every conversation is held in complete confidence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-emerald center reveal">
+    <div class="container">
+      <div class="eyebrow center"><span>Prefer to Explore First?</span></div>
+      <h2 class="h-xl">Review our services or read the FAQ.</h2>
+      <div class="actions" style="justify-content:center;display:flex;gap:1.1rem;flex-wrap:wrap;margin-top:1rem;">
+        <a href="services.html" class="btn btn-outline-light">View Services</a>
+        <a href="faq.html" class="btn btn-outline-light">Read the FAQ</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/logo.png" alt="PHLC monogram">
+            <span>Prestige Heritage<br>Lifestyle Concierge</span>
+          </div>
+          <p style="max-width:34ch;font-size:0.92rem;color:rgba(246,241,230,0.7);">Exceptional support. Everyday peace of mind. Trusted concierge and home safety services for individuals and families.</p>
+        </div>
+        <div>
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="who-we-serve.html">Who We Serve</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="home-safety-audits.html">Home Safety Audits</a></li>
+            <li><a href="services.html#vendor">Vendor Coordination</a></li>
+            <li><a href="services.html#grocery">Grocery Concierge</a></li>
+            <li><a href="services.html#healthcare">Healthcare Coordination</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul>
+            <li>By appointment, in confidence</li>
+            <li><a href="tel:+18683740305">(868) 374-0305</a></li>
+            <li><a href="mailto:PHCONCIERGE1@outlook.com">PHCONCIERGE1@outlook.com</a></li>
+            <li><a href="contact.html">Book a Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Prestige Heritage Lifestyle Concierge. All rights reserved.</span>
+        <span>Trust &middot; Integrity &middot; Confidentiality &middot; Compassion</span>
+      </div>
+    </div>
+  </footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
